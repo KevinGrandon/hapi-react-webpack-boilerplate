@@ -1,0 +1,27 @@
+{
+  "name": "react-fast-list",
+  "version": "1.0.0",
+  "description": "A virtualized list for displaying a smoothly scrolling list of fixed-height items. More performant than other libraries in that it does not cause reflows.",
+  "scripts": {
+    "start": "npm run serve | npm run dev",
+    "serve": "./node_modules/.bin/http-server -p 8080",
+    "dev": "webpack-dev-server --progress --colors --port 8090",
+    "test": "test"
+  },
+  "author": "Kevin Grandon <kevingrandon@yahoo.com",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.17",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "jsx-loader": "^0.13.2",
+    "modern-standard": "^1.4.1",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
+}
