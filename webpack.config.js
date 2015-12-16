@@ -1,6 +1,6 @@
 module.exports = {
   entry: {
-    app: './src/app.jsx'
+    app: './client/app.jsx'
   },
   output: {
     filename: '[name].entry.js',
