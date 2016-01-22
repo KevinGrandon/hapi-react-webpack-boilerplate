@@ -1,3 +1,6 @@
+[![Dependency Status](https://david-dm.org/kevingrandon/hapi-react-webpack-boilerplate.svg)](https://david-dm.org/kevingrandon/hapi-react-webpack-boilerplate)
+[![devDependency Status](https://david-dm.org/kevingrandon/hapi-react-webpack-boilerplate/dev-status.svg)](https://david-dm.org/kevingrandon/hapi-react-webpack-boilerplate#info=devDependencies)
+
 # React + Webpack Boilerplate
 
 My version of a react + webpack boilerplate.
