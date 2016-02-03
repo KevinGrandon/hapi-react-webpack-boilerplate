@@ -15,8 +15,8 @@
     "hapi": "^12.1.0",
     "hapi-async-handler": "^1.0.3",
     "inert": "^3.2.0",
-    "react": "^0.14.6",
-    "react-dom": "^0.14.6"
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
   },
   "devDependencies": {
     "babel-cli": "^6.3.17",
