@@ -1,3 +1,5 @@
+var autoprefixer = require('autoprefixer');
+
 module.exports = {
   entry: {
     app: './client/app.jsx'
@@ -16,6 +18,10 @@ module.exports = {
         exclude: /(node_modules|bower_components)/,
         loader: 'babel', // 'babel-loader' is also a legal name to reference
       },
+      {
+        test:   /\.css$/,
+        loader: "style-loader!css-loader!postcss-loader"
+      }
     ],
   },
   externals: {
@@ -26,4 +32,7 @@ module.exports = {
   resolve: {
     extensions: ['', '.js', '.jsx'],
   },
+  postcss: function () {
+    return [autoprefixer];
+  }
 }
