@@ -12,7 +12,7 @@
   "license": "MPL-2.0",
   "dependencies": {
     "debug": "^2.2.0",
-    "hapi": "^12.1.0",
+    "hapi": "^13.0.0",
     "hapi-async-handler": "^1.0.3",
     "inert": "^3.2.0",
     "react": "^0.14.7",
