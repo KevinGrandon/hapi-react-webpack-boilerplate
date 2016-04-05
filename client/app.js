@@ -1,6 +1,8 @@
 var React = require('react')
 var ReactDOM = require('react-dom')
 
+var styles = require('./css/styles.css');
+
 class App extends React.Component {
 
   constructor (props) {
@@ -9,7 +11,7 @@ class App extends React.Component {
 
   render () {
     return (
-      <div>
+      <div className={styles.main}>
         Welcome to App!
       </div>
     )

@@ -2,7 +2,7 @@ var autoprefixer = require('autoprefixer');
 
 module.exports = {
   entry: {
-    app: './client/app.jsx'
+    app: './client/app.js'
   },
   output: {
     filename: '[name].entry.js',
@@ -20,7 +20,7 @@ module.exports = {
       },
       {
         test:   /\.css$/,
-        loader: "style-loader!css-loader!postcss-loader"
+        loader: "style-loader!css-loader?modules!postcss-loader"
       }
     ],
   },
